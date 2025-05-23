@@ -179,10 +179,10 @@ padding: 40px 0 0 0;
 /* Here the style for the recipe of the manth html file*/
 
 .Recipe-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 100px;
+ display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 100px;
 }
 #pasta{
     width: 400px;
