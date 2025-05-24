@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif+JP:wght@200..900&family=Rouge+Script&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: white;
+min-height: 100vw;
+}
+
+
+/* Here is the style for the header using flex */
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem; 
+background-color: white;
+}
+
+#logo{
+font-family: "Great Vibes", cursive;
+font-size: 1.8rem;
+}
+.nav-links{
+list-style: none;
+display: flex;
+gap: 20px;
+}
+.nav-links a{
+text-decoration: none;
+font-size: 1rem;
+color: black;
+font-family: "Noto Serif JP", serif;
+font-weight: bold;
+}
+.nav-links a:hover{
+color: rgb(209, 139, 47);
+}
+/* Here is the style for the Navbar using flex */
+
+.navbar{
+display: flex;
+justify-content: space-around;
+background-color: white;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+padding: 5px 0;
+}
+.navbar-links{
+list-style: none;
+display: flex;
+gap: 170px;
+}
+.navbar-links a{
+text-decoration: none;
+font-size: 1rem;
+color: black;
+font-family: "Noto Serif JP", serif;
+font-weight: bold;
+}
+
+
+   
+.cover{
+    
+background-image: url(/images/cover.jpg);
+height: 700px;
+margin-top: 1rem;
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover;
+border-bottom: 5px solid gray;
+     
+}
+h1{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-size: 5rem;
+    padding-top: 800px;
+    font-family: "League Script", cursive;
+}
+p{
+font-size: 3rem;
+font-family: "Merienda", cursive;
+text-align: center;
+}
+.text{
+padding-top: 2rem;
+font-size: 3rem;
+font-family: "Merienda", cursive;
+text-align: center;
+
+}
+
+.main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 500px;
+margin-bottom: 40px;
+}  
+
+h3{
+font-size: 4rem;
+padding-top: 2rem;
+font-family: "League Script", cursive; 
+
+}
+/*Here is comments css*/
+.main-comments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 100px;
+}
+
+.full-boxer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.comment-box:hover{
+    margin-top: 12px;
+   
+}
+
+.comment-box{
+    width: 500px;
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+}
+
+.Profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile-image{
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.Name strong{
+    color: black;
+    font-size: 18px;
+}
+
+.Name span{
+    color: gray;
+    margin-top: 2px;
+}
+
+.comment-p {
+    color: rgb(15, 14, 14);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+h3{
+    font-size: 4rem;
+    font-family: "League Script", cursive; 
+    text-align: center;
+}
+/*Whrite comment section*/
+
+
+input, textarea{
+ width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+ textarea{
+vertical-align: top;
+height: 5rem;
+
+ }
+ button{
+  width: 20%;
+  background-color: #191a19;
+  color: white;
+  padding: 34px 0px;
+  margin: 38px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2rem;
+
+}
+
+
+/* Here is the style for the Footer*/
+
+.footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 1rem;
+}
+
+.footer-links{
+list-style: none;
+display: flex;
+gap: 30px;
+justify-content: space-around;
+align-items: center;
+padding-bottom: 2px 20px;
+    
+   
+}
+.footer-links a{
+text-decoration: none;
+font-size: 1rem;
+color: white;
+    
+  
+}
+
+.social-icons {
+margin:  20px 0;
+font-size: 2rem;
+   
+}
+.my-icon{
+color: white;
+}
+h4{
+padding: 40px 0 0 0;}
