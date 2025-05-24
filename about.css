@@ -269,3 +269,30 @@ color: white;
 }
 h4{
 padding: 40px 0 0 0;}
+
+
+/* here is code for @media phone size*/
+
+
+@media (max-width: 768px)  {
+    
+.navbar-links{
+    gap: 30px;
+}
+.footer-links{
+    gap: 10px;
+}
+}
+/* here is code for @media tablet size*/
+@media  (min-width:769px)  {
+
+.navbar-links{
+    gap: 80px;
+}
+.footer-links{
+    gap: 20px;
+}
+}
+
+
+
