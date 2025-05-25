@@ -212,6 +212,7 @@ border: 1px solid #ccc;
 border-radius: 6px;
 box-sizing: border-box;
 font-size: 2rem;
+
 }
  textarea{
 vertical-align: top;
@@ -228,10 +229,10 @@ border: none;
 border-radius: 4px;
 cursor: pointer;
 font-size: 2rem;
-
- 
 }
-
+label{
+    font-size: 1.5rem;
+}
 
 /* Here is the style for the Footer*/
 
